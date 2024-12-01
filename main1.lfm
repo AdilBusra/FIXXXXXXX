@@ -1,0 +1,190 @@
+object Form1: TForm1
+  Left = 163
+  Height = 377
+  Top = 91
+  Width = 995
+  BorderStyle = bsNone
+  Caption = 'KAM Ticket Book'
+  ClientHeight = 377
+  ClientWidth = 995
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -24
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  LCLVersion = '3.6.0.0'
+  WindowState = wsFullScreen
+  object lblprogram: TLabel
+    Left = 5
+    Height = 72
+    Top = 15
+    Width = 985
+    Align = alTop
+    Alignment = taCenter
+    BorderSpacing.Top = 10
+    BorderSpacing.Around = 5
+    Caption = 'KAM Ticket Book'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -64
+    Font.Name = 'Georgia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentFont = False
+  end
+  object lblsapa: TLabel
+    AnchorSideBottom.Side = asrCenter
+    Left = 0
+    Height = 38
+    Top = 127
+    Width = 995
+    Align = alTop
+    Alignment = taCenter
+    BorderSpacing.Top = 40
+    Caption = 'Halo, Selamat Datang di KAM Ticket Book'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Georgia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object edtnama: TEdit
+    Left = 531
+    Height = 26
+    Top = 285
+    Width = 296
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Georgia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+    TextHint = 'Masukkan Nama Anda'
+  end
+  object lblnama: TLabel
+    Left = 459
+    Height = 18
+    Top = 285
+    Width = 42
+    Caption = 'Nama'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Georgia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object lblexclam: TLabel
+    Left = 384
+    Height = 28
+    Top = 227
+    Width = 501
+    Caption = 'Silahkan masukkan nama Anda terlebih dahulu'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Name = 'Gadugi'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object btnlanjut: TButton
+    Left = 719
+    Height = 23
+    Top = 344
+    Width = 108
+    Caption = 'Lanjutkan'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Gadugi'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+    OnClick = btnlanjutClick
+  end
+  object btnkeluar1: TButton
+    Left = 531
+    Height = 23
+    Top = 344
+    Width = 108
+    Caption = 'Keluar'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Gadugi'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+    OnClick = btnkeluar1Click
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 32
+    Top = 640
+    Width = 132
+    Caption = 'Muhammad Adil Busra'#13#10'241401027'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Gadugi'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 176
+    Height = 32
+    Top = 640
+    Width = 118
+    Caption = 'Nasywa Zavira Lubis'#13#10'241401006'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Gadugi'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 16
+    Top = 592
+    Width = 135
+    Caption = 'Program developed by'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Gadugi'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 344
+    Height = 16
+    Top = 640
+    Width = 103
+    Caption = 'Dosen Pengampu'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Gadugi'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 472
+    Height = 32
+    Top = 640
+    Width = 181
+    Caption = 'Dian Rachmawati, S.Si., M.Kom.'#13#10'198307232009122004'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Gadugi'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+end

@@ -1,0 +1,162 @@
+object Form4: TForm4
+  Left = 221
+  Height = 440
+  Top = 149
+  Width = 1044
+  BorderStyle = bsNone
+  Caption = 'Form4'
+  ClientHeight = 440
+  ClientWidth = 1044
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '3.6.0.0'
+  WindowState = wsMaximized
+  object lblprogram: TLabel
+    Left = 5
+    Height = 72
+    Top = 15
+    Width = 1034
+    Align = alTop
+    Alignment = taCenter
+    BorderSpacing.Top = 10
+    BorderSpacing.Around = 5
+    Caption = 'KAM Ticket Book'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -64
+    Font.Name = 'Georgia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentFont = False
+    OnClick = lblprogramClick
+  end
+  object lblsapa4: TLabel
+    Left = 0
+    Height = 38
+    Top = 127
+    Width = 1044
+    Align = alTop
+    Alignment = taCenter
+    BorderSpacing.Top = 40
+    Caption = 'Silahkan lakukan pemesanan tiket'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Georgia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object lbl1: TLabel
+    AnchorSideLeft.Control = lbl2
+    AnchorSideTop.Control = cbdes
+    AnchorSideTop.Side = asrCenter
+    Left = 400
+    Height = 15
+    Top = 236
+    Width = 73
+    Caption = 'Pilih Destinasi'
+  end
+  object lbl2: TLabel
+    AnchorSideTop.Control = cbkel
+    AnchorSideTop.Side = asrCenter
+    Left = 400
+    Height = 15
+    Top = 284
+    Width = 53
+    Caption = 'Pilih Kelas'
+  end
+  object lbl3: TLabel
+    AnchorSideLeft.Control = lbl2
+    AnchorSideTop.Control = edt1
+    AnchorSideTop.Side = asrCenter
+    Left = 400
+    Height = 15
+    Top = 340
+    Width = 66
+    Caption = 'Jumlah Tiket'
+  end
+  object cbdes: TComboBox
+    Left = 520
+    Height = 23
+    Top = 232
+    Width = 144
+    ItemHeight = 15
+    Items.Strings = (
+      'Siantar'
+      'Tebing Tinggi'
+      'Kisaran'
+    )
+    TabOrder = 0
+    TextHint = 'Destinasi'
+  end
+  object cbkel: TComboBox
+    Left = 520
+    Height = 23
+    Top = 280
+    Width = 144
+    ItemHeight = 15
+    Items.Strings = (
+      'VIP'
+      'Bisnis'
+      'Ekonomi'
+    )
+    TabOrder = 1
+    TextHint = 'Kelas'
+  end
+  object edt1: TEdit
+    Left = 520
+    Height = 23
+    Top = 336
+    Width = 96
+    TabOrder = 2
+    TextHint = 'Ketik disni'
+  end
+  object btnpilih: TButton
+    AnchorSideTop.Control = btnhapus
+    AnchorSideTop.Side = asrCenter
+    AnchorSideBottom.Control = btntoken
+    AnchorSideBottom.Side = asrCenter
+    Left = 680
+    Height = 25
+    Top = 496
+    Width = 75
+    Caption = 'Pesan'
+    TabOrder = 3
+    OnClick = btnpilihClick
+  end
+  object btntoken: TButton
+    Left = 816
+    Height = 25
+    Top = 496
+    Width = 75
+    Caption = 'Bayar'
+    TabOrder = 4
+    OnClick = btntokenClick
+  end
+  object btnhapus: TButton
+    Left = 538
+    Height = 25
+    Top = 496
+    Width = 75
+    Caption = 'Hapus'
+    TabOrder = 5
+    OnClick = btnhapusClick
+  end
+  object btnkembali: TButton
+    Left = 400
+    Height = 25
+    Top = 496
+    Width = 75
+    Caption = 'Kembali'
+    TabOrder = 6
+    OnClick = btnkembaliClick
+  end
+  object mhasil: TMemo
+    Left = 768
+    Height = 218
+    Top = 232
+    Width = 232
+    TabOrder = 7
+  end
+end

@@ -1,0 +1,103 @@
+object Form5: TForm5
+  Left = 52
+  Height = 452
+  Top = 100
+  Width = 832
+  BorderStyle = bsNone
+  Caption = 'Form5'
+  ClientHeight = 452
+  ClientWidth = 832
+  OnCreate = FormCreate
+  LCLVersion = '3.6.0.0'
+  WindowState = wsFullScreen
+  object lblprogram: TLabel
+    Left = 5
+    Height = 72
+    Top = 15
+    Width = 822
+    Align = alTop
+    Alignment = taCenter
+    BorderSpacing.Top = 10
+    BorderSpacing.Around = 5
+    Caption = 'KAM Ticket Book'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -64
+    Font.Name = 'Georgia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentFont = False
+  end
+  object lblsapa5: TLabel
+    Left = 0
+    Height = 38
+    Top = 127
+    Width = 832
+    Align = alTop
+    Alignment = taCenter
+    BorderSpacing.Top = 40
+    Caption = 'Silahkan lakukan pembayaran Tiket'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Georgia'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object lbltb: TLabel
+    Left = 424
+    Height = 21
+    Top = 240
+    Width = 205
+    Caption = 'Masukkan Token Pembayaran'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object edttb: TEdit
+    AnchorSideLeft.Control = lbltb
+    Left = 424
+    Height = 23
+    Top = 288
+    Width = 272
+    TabOrder = 0
+    TextHint = 'Ketik Token Anda'
+  end
+  object btncek: TButton
+    Left = 621
+    Height = 25
+    Top = 336
+    Width = 75
+    Caption = 'Cek Token'
+    TabOrder = 1
+    OnClick = btncekClick
+  end
+  object mbayar: TMemo
+    Left = 760
+    Height = 184
+    Top = 216
+    Width = 232
+    TabOrder = 2
+  end
+  object btnkembali5: TButton
+    Left = 424
+    Height = 25
+    Top = 336
+    Width = 75
+    Caption = 'Kembali'
+    TabOrder = 3
+    OnClick = btnkembali5Click
+  end
+  object btnbayar: TButton
+    Left = 760
+    Height = 25
+    Top = 424
+    Width = 75
+    Caption = 'Bayar'
+    TabOrder = 4
+    OnClick = btnbayarClick
+  end
+end
